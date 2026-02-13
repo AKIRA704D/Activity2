@@ -5,12 +5,12 @@ let place = "forest";
 let adjective2 = "brown";
 let noun2 = "dog";
 
-// Use backticks (`) and ${variable} for string interpolation
+
 let firstStory = `Once upon a time, there was a ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
 
 console.log(`First Story: ${firstStory}`);
 
-// Reassigning values
+
 adjective = "lazy";
 noun = "dog";
 verb = "sleeps";
