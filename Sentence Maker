@@ -1,15 +1,16 @@
 let adjective = "quick";
 let noun = "fox";
 let verb = "jumps";
-let place = "Mountains";
+let place = "forest";
 let adjective2 = "brown";
 let noun2 = "dog";
-println!("The {} {} {} over the lazy {} in the {}.", adjective, noun, verb, noun2, place);
 
-let firstStory = ("Once upon a time, there was a {} {} who loved to eat {}. The {} lived in a {} and had {} nostrils that blew fire when it was {}."adjective,noun,noun2,noun,place,adjective2,verb);
+// Use backticks (`) and ${variable} for string interpolation
+let firstStory = `Once upon a time, there was a ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
 
 console.log(`First Story: ${firstStory}`);
 
+// Reassigning values
 adjective = "lazy";
 noun = "dog";
 verb = "sleeps";
@@ -17,5 +18,6 @@ place = "park";
 adjective2 = "happy";
 noun2 = "cat";
 
-let secondStory = ("Once upon a time, there was a {} {} who loved to eat {}. The {} lived in a {} and had {} nostrils that blew fire when it was {}."adjective,noun,noun2,noun,place,adjective2,verb);
+let secondStory = `Once upon a time, there was a ${adjective} ${noun} who loved to eat ${noun2}. The ${noun} lived in a ${place} and had ${adjective2} nostrils that blew fire when it was ${verb}.`;
+
 console.log(`Second Story: ${secondStory}`);
