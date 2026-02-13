@@ -1,0 +1,21 @@
+let adjective = "quick";
+let noun = "fox";
+let verb = "jumps";
+let place = "Mountains";
+let adjective2 = "brown";
+let noun2 = "dog";
+println!("The {} {} {} over the lazy {} in the {}.", adjective, noun, verb, noun2, place);
+
+let firstStory = ("Once upon a time, there was a {} {} who loved to eat {}. The {} lived in a {} and had {} nostrils that blew fire when it was {}."adjective,noun,noun2,noun,place,adjective2,verb);
+
+console.log(`First Story: ${firstStory}`);
+
+adjective = "lazy";
+noun = "dog";
+verb = "sleeps";
+place = "park";
+adjective2 = "happy";
+noun2 = "cat";
+
+let secondStory = ("Once upon a time, there was a {} {} who loved to eat {}. The {} lived in a {} and had {} nostrils that blew fire when it was {}."adjective,noun,noun2,noun,place,adjective2,verb);
+console.log(`Second Story: ${secondStory}`);
